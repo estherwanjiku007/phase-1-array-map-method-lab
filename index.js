@@ -11,6 +11,11 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-const titleCased = () => {
-  return tutorials
-}
+const titleCased =tutorials.map((collection)=>{ 
+  for (const words of tutorials){
+  return object.assign=({} ,tutorials, {
+    words:"first".toUpperCase 
+   })
+ }
+ console.log("titleCased");
+})
